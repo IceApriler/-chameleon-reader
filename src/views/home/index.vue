@@ -1,5 +1,5 @@
 <template>
-  <div class="container"></div>
+  <div class="container">{{ $route.path }}</div>
 </template>
 <script>
 import { mapGetters } from 'vuex'
